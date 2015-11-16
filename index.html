@@ -8,6 +8,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="fullpage.js/vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="fullpage.js/jquery.fullPage.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script> <!--ANGULAR CDN-->
     <script type="text/javascript" src="app.js"></script>
 <!-- 
     <style>
@@ -25,33 +27,55 @@
     <ul id="menu2">
       <li>SAMUEL JOLI</li>
       <li>DESIGNER // WEB DEVELOPER</li>
-      <li><i class="fa fa-github-alt fa-3x"></i></li>
+      <li style="visibility: hidden;"><i class="fa fa-github-alt fa-3x"></i></li>
     </ul>
 
     <ul id="menu">
       <li data-menuanchor="home" class="active"><a href="#Home">HOME</a></li>
       <li data-menuanchor="secondPage"><a href="#Work">WORK</a></li>
       <li data-menuanchor="thirdPage"><a href="#Technologies">TECHNOLOGIES</a></li>
-       <li><i class="fa fa-github-alt fa-3x"></i></li>
+      <li><a href="https://www.github.com/samueljoli" target="_blank"><i class="fa fa-github-alt fa-3x"></i></a></li>
+      <li><i class="fa fa-linkedin-square fa-3x"></i></li>
+      <li><i class="fa fa-twitter fa-3x"></i></li>
     </ul>
     
 
 
-    <div id="fullpage">
-        <div class="section" id="section0">
-            <div>
-                <marquee behavior="scroll" direction="left" scrollamount="10"><p style="font-size: 150px;">Your scrolling text goes here</p></marquee>
+    <div id="fullpage" ng-app="ScrollApp">
+        <div class="section" id="section0" ng-controller="PreviewController"> <!-- possibly place ng-app module here -->
+            <div id="scroll">
+                <marquee ng-bind-html="output | html" behavior="scroll" direction="left" scrollamount="15" style="font-size:150px;"></marquee>
+            </div>
+            
+
+            <div id="welcomenote">
+            <p>...So you've managed to find my portfolio website....must be doing something right</p>
+             <textarea rows="1" cols="30" ng-model="input"></textarea>   
             </div>
         </div>
 
         <div class="section" id="section1">
-            <div class="slide">Section 2 Slide 1</div>
-            <div class="slide">Section 2 Slide 2</div>
-            <div class="slide">Section 2 Slide 3</div>
+            <div class="slide">
+                <div id="work">
+                    <p>test</p>
+                </div>
+                <div id="workinfo">
+                    <p>test</p>
+                </div>
+            </div>
+            
+            <div class="slide">Second
+            </div>
+            
+            <div class="slide">Third
+            </div>
         </div>
+        
         <div class="section" id="section2"> 
-            <p>Contact</p>
+
         </div>
+
+
     </div>            
 </body> 
 </html>

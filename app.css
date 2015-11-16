@@ -1,4 +1,27 @@
 
+#work {
+  /*position:fixed;*/
+  background-color: gray;
+  height:90%;
+  width:50%;
+  float:left;
+ }
+
+ #marquee {
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+
+#workinfo {
+  position:relative;
+  background-color:black;
+  height:90%;
+  width:50%;
+  float:right;
+
+}
 
 #menu li {
   display:inline-block;
@@ -40,10 +63,12 @@
   right:0;
   height: 40px;
   z-index: 70;
-  width: 50%;
+  width: 30%;
   padding: 0;
   margin:0;
-/*  background-color: beige;*/
+ /* background-color: beige;*/
+  text-align: right;
+  margin-right: 10px;
 }
 
 #menu2{
@@ -70,6 +95,20 @@
   font-size:10px;
 }
 
+#welcomenote {
+  position:fixed;
+  bottom:0;
+  padding: 0;
+  margin:3px;
+  /*right:0;*/
+  float:right;
+ 
+}
+
+#welcomenote p {
+  line-height: 50%;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 ul {
