@@ -2,9 +2,24 @@ $(document).ready(function() {
   $('#fullpage').fullpage({
     sectionsColor: ['#F8F8F8', '#4BBFC3', '#7BAABE'],
     anchors: ['Home', 'Work', 'Technologies', 'Contact'],
-    
-    });
+    afterLoad: function(anchorLink, index) {
+      if(index == 2) {
+        $('#work').fadeIn('slow').animate({
+          left: '0'
+        }, {duration: 'slow', queue:false}, function() {
+
+        });
+        $('#workinfo').fadeIn('slow').animate({
+          right: '0'
+        }, {duration: 'slow', queue:false}, function(){
+
+        });
+      }
+    }
+  });
 });
+
+
 
 
 

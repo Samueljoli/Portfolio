@@ -1,26 +1,23 @@
 
 #work {
-  /*position:fixed;*/
+  position:relative;
   background-color: gray;
-  height:90%;
+  height:110%;
   width:50%;
   float:left;
+  left:-20%;
+  display:none;
  }
 
- #marquee {
-  width: 300px;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background: #ccc;
-}
 
 #workinfo {
+  display:none;
   position:relative;
   background-color:black;
-  height:90%;
+  height:110%;
   width:50%;
   float:right;
-
+  right:-20%
 }
 
 #menu li {
