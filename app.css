@@ -1,23 +1,40 @@
 
 #work {
   position:relative;
-  background-color: gray;
+  background-color: black;
   height:110%;
   width:50%;
   float:left;
   left:-20%;
   display:none;
+  background-image: url("images/dtgfinal2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
  }
 
+#work h1 {
+  top:50%;
+  position:relative;
+  text-align: center;
+  color:white;
+}
 
 #workinfo {
+  background-color:white;
   display:none;
   position:relative;
-  background-color:black;
   height:110%;
   width:50%;
   float:right;
   right:-20%
+}
+
+#workinfo h1, p {
+  top:50%;
+  position:relative;
+  text-align: center;
+  color:black;
 }
 
 #menu li {
@@ -98,13 +115,19 @@
   padding: 0;
   margin:3px;
   /*right:0;*/
-  float:right;
- 
+  float:left;
+  margin-bottom: 10; 
 }
 
 #welcomenote p {
   line-height: 50%;
   font-family: 'Montserrat', sans-serif;
+}
+
+#tickerinput {
+  font-weight: bold;
+  font-size: 13px;
+  background: linear-gradient(to right, #FF9933 , #99FF66);
 }
 
 
