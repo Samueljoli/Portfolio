@@ -134,3 +134,87 @@
 ul {
   list-style:none;
 }
+
+
+
+
+
+
+
+/*#workinfo {
+  background-color:white;
+  display:none;
+  position:relative;
+  height:110%;
+  width:50%;
+  float:right;
+  right:-20%
+}
+
+#workinfo h1, p {
+  top:50%;
+  position:relative;
+  text-align: center;
+  color:black;
+}*/
+
+#summerfest {
+  display: inline-block;
+  width:25%;
+  height:45%;
+}
+
+
+
+#workphoto {
+  display:block !important;
+  margin:auto !important;
+}
+
+#artopp {
+  /*background-color:red;*/
+  width:25%;
+  height:45%;
+  float:left;
+}
+
+#googlecli {
+
+  width:25%;
+  height:45%;
+  float:left;  
+}
+
+#dtg {
+  
+  width:25%;
+  height:45%;
+  float:left
+}
+
+/*#workheader {
+
+  background-color:deeppink;
+  width:25%;
+  height:25%;
+  float:left
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
