@@ -21,6 +21,7 @@
 }
 
 #workinfo {
+  font-family: 'Montserrat', sans-serif;
   background-color:white;
   display:none;
   position:relative;
@@ -28,13 +29,15 @@
   width:50%;
   float:right;
   right:-20%
+
 }
 
-#workinfo h1, p {
-  top:50%;
+#workinfo h1, p, a {
+  top:40%;
   position:relative;
+  /*padding-left:10px;*/
   text-align: center;
-  color:black;
+  color:gray;
 }
 
 #menu li {
@@ -141,22 +144,7 @@ ul {
 
 
 
-/*#workinfo {
-  background-color:white;
-  display:none;
-  position:relative;
-  height:110%;
-  width:50%;
-  float:right;
-  right:-20%
-}
 
-#workinfo h1, p {
-  top:50%;
-  position:relative;
-  text-align: center;
-  color:black;
-}*/
 
 #summerfest {
   display: inline-block;
@@ -192,13 +180,11 @@ ul {
   float:left
 }
 
-/*#workheader {
 
-  background-color:deeppink;
-  width:25%;
-  height:25%;
-  float:left
-}*/
+
+
+
+
 
 
 

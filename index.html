@@ -12,14 +12,7 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script> <!--ANGULAR CDN-->
     <script type="text/javascript" src="app.js"></script>
-<!-- 
-    <style>
-        .section{
-            font-size: 6em;
-            text-align: center;
-        }
-    </style>
- -->
+
 
 </head>
 
@@ -50,9 +43,9 @@
             
 
             <div id="welcomenote">
-            <p>...So you've managed to find my portfolio website....must be doing something right</p>
+            <!-- <p>...So you've managed to find my portfolio website....must be doing something right</p> -->
            
-            <textarea id="tickerinput" rows="1" cols="60" ng-model="input"></textarea><span>...Go ahead you know you want to</span>
+            <textarea id="tickerinput" rows="1" cols="60" ng-model="input"></textarea><span>...Once your done f#cking around, scroll down to see my work</span>
                
             </div>
         </div>
@@ -64,15 +57,15 @@
             </div>
             
             <div id="artopp">
-                <img id="workphoto" src="images/artopp.png">
+                <a data-menuanchor="artopp" href="#ArtOpp"><img id="workphoto" src="images/artopp.png"></a>
             </div>
 
             <div id="googlecli">
-                <img id="workphoto" src="images/googlecli.png">
+                <a data-menuanchor="googlecli" href="#GoogleCLI"><img id="workphoto" src="images/googlecli.png"></a>
             </div>
 
             <div id="summerfest">
-                <img id="workphoto" src="images/summerfest.png">    
+                <a data-menuanchor="summerfest" href="#SummerFest"><img id="workphoto" src="images/summerfest.png"></a>    
             </div>
 
         </div>
@@ -82,16 +75,18 @@
 
         <div class="section" id="section2"> 
             <div class="slide">
-                <div id="work">
-                 
-                </div>
+                <div id="work"></div>
                 <div id="workinfo">
-                    <h1>downtoGo</h1>
-                    
+                    <h1>// Ruby web application </h1>
+                    <p> Technologies: Rails, Javascript, Jquery, Ajax </p>
+                    <p><a href="https://github.com/Samueljoli/DTG"><i class="fa fa-github-alt fa-3x"></i></a></p>
                 </div>
             </div>
             
             <div class="slide">Second
+                
+
+
             </div>
             
             <div class="slide">Third
@@ -105,6 +100,16 @@
         <div class="section" id="section3">
 
 
+        </div>
+
+        <div class="section" id="section4">
+
+        </div>
+
+        <div class="section" id="section5">
+        </div>
+
+        <div class="section" id="section6">
         </div>
 
 

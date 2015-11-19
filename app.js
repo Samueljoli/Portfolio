@@ -15,8 +15,8 @@ ScrollApp.filter('html', function($sce) {return $sce.trustAsHtml; });
 
 $(document).ready(function() { 
   $('#fullpage').fullpage({
-    sectionsColor: ['#F8F8F8', 'black', '#7BAABE', 'black'],
-    anchors: ['Home', 'Work', 'Downtogo', 'Contact'],
+    sectionsColor: ['#F8F8F8', 'black', '#7BAABE', 'black', 'gray', 'deeppink', 'lightblue'],
+    anchors: ['Home', 'Work', 'Downtogo', 'ArtOpp', 'GoogleCLI', 'SummerFest', 'Contact'],
     afterLoad: function(anchorLink, index) {
       if(index == 3) {
         $('#work').fadeIn('slow').animate({ //CHECK TO SEE IF I CAN APPEND TWO JQUERYS WITHIN THE SAME PARENTHESIS
@@ -33,6 +33,12 @@ $(document).ready(function() {
     }
   });
 });
+
+
+
+
+
+
 
 
 
