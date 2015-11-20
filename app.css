@@ -188,7 +188,20 @@ ul {
 
 
 
-
+@media only screen and (max-width:650px){
+  .work, .work-info {
+    width:50%;
+  }
+  .fp-tableCell{
+    width:200%;
+    display: block;
+  }
+  .fp-section {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+  }
+}
 
 
 
