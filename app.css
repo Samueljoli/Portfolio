@@ -2,7 +2,7 @@
 #work {
   position:relative;
   background-color: black;
-  height:110%;
+  height:100%;
   width:50%;
   float:left;
   left:-20%;
@@ -25,11 +25,10 @@
   background-color:white;
   display:none;
   position:relative;
-  height:110%;
+  height:100%;
   width:50%;
   float:right;
   right:-20%
-
 }
 
 #workinfo h1, p, a {
@@ -39,6 +38,49 @@
   text-align: center;
   color:gray;
 }
+
+
+#work2 {
+  position:relative;
+  background-color: black;
+  height:100%;
+  width:50%;
+  float:left;
+  left:-20%;
+  display:none;
+  background-image: url("images/summerfest_cover.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+ }
+
+#work2 h1 {
+  top:50%;
+  position:relative;
+  text-align: center;
+  color:white;
+}
+
+#workinfo2 {
+  font-family: 'Montserrat', sans-serif;
+  background-color:white;
+  display:none;
+  position:relative;
+  height:100%;
+  width:50%;
+  float:right;
+  right:-20%
+}
+
+#workinfo2 h1, p, a {
+  top:40%;
+  position:relative;
+  /*padding-left:10px;*/
+  text-align: center;
+  color:gray;
+}
+
+
 
 #menu li {
   display:inline-block;
@@ -141,10 +183,10 @@ ul {
 
 
 
-
-
-
-
+#workphoto {
+  display:block !important;
+  margin:auto !important;
+}
 
 #summerfest {
   display: inline-block;
@@ -152,12 +194,6 @@ ul {
   height:45%;
 }
 
-
-
-#workphoto {
-  display:block !important;
-  margin:auto !important;
-}
 
 #artopp {
   /*background-color:red;*/
