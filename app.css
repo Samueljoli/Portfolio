@@ -1,5 +1,5 @@
 
-#work {
+.work {
   position:relative;
   background-color: black;
   height:100%;
@@ -7,20 +7,23 @@
   float:left;
   left:-20%;
   display:none;
+ }
+
+ .down-to-go {
   background-image: url("images/dtgfinal2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center;
  }
 
-#work h1 {
+.work h1 {
   top:50%;
   position:relative;
   text-align: center;
   color:white;
 }
 
-#workinfo {
+.work-info {
   font-family: 'Montserrat', sans-serif;
   background-color:white;
   display:none;
@@ -31,7 +34,7 @@
   right:-20%
 }
 
-#workinfo h1, p, a {
+.work-info h1, p, a {
   top:40%;
   position:relative;
   /*padding-left:10px;*/
@@ -40,46 +43,12 @@
 }
 
 
-#work2 {
-  position:relative;
-  background-color: black;
-  height:100%;
-  width:50%;
-  float:left;
-  left:-20%;
-  display:none;
+.summerfest {
   background-image: url("images/summerfest_cover.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center;
  }
-
-#work2 h1 {
-  top:50%;
-  position:relative;
-  text-align: center;
-  color:white;
-}
-
-#workinfo2 {
-  font-family: 'Montserrat', sans-serif;
-  background-color:white;
-  display:none;
-  position:relative;
-  height:100%;
-  width:50%;
-  float:right;
-  right:-20%
-}
-
-#workinfo2 h1, p, a {
-  top:40%;
-  position:relative;
-  /*padding-left:10px;*/
-  text-align: center;
-  color:gray;
-}
-
 
 
 #menu li {

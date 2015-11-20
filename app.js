@@ -23,12 +23,12 @@ $(document).ready(function() {
     // CALL BACKS
     afterLoad: function(anchorLink, index) {
       if(index == 3) {
-        $('#work').fadeIn('slow').animate({ 
+        $('.work').fadeIn('slow').animate({ 
           left: '0'
         }, {duration: 'slow', queue:false}, function() {
 
         });
-        $('#workinfo').fadeIn('slow').animate({
+        $('.work-info').fadeIn('slow').animate({
           right: '0'
         }, {duration: 'slow', queue:false}, function(){
 
@@ -36,13 +36,13 @@ $(document).ready(function() {
       }
 console.log(index)
       if(index == 6) { 
-        console.log($('#work2'))
-        $('#work2').fadeIn('slow').animate({ 
+        console.log($('.work'))
+        $('.work').fadeIn('slow').animate({ 
           left: '0'
         }, {duration: 'slow', queue:false}, function() {
 
         });
-        $('#workinfo2').fadeIn('slow').animate({
+        $('.work-info').fadeIn('slow').animate({
           right: '0'
         }, {duration: 'slow', queue:false}, function(){
 
