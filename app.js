@@ -17,18 +17,18 @@ ScrollApp.filter('html', function($sce) {return $sce.trustAsHtml; });
 // FULL PAGE JS
 $(document).ready(function() { 
   $('#fullpage').fullpage({
-    sectionsColor: ['#F8F8F8', 'black', '#7BAABE', 'white', 'gray', 'deeppink', 'lightblue'],
+    sectionsColor: ['#F8F8F8', 'black', '#7BAABE', 'black', 'gray', 'deeppink', 'lightblue'],
     anchors: ['Home', 'Work', 'Downtogo', 'ArtOpp', 'GoogleCLI', 'SummerFest', 'Contact'],
     
     // CALL BACKS
     afterLoad: function(anchorLink, index) {
       if(index == 3) {
-        $('.work').fadeIn('slow').animate({ 
+        $('.down-to-go').fadeIn('slow').animate({ 
           left: '0'
         }, {duration: 'slow', queue:false}, function() {
 
         });
-        $('.work-info').fadeIn('slow').animate({
+        $('.ruby-web').fadeIn('slow').animate({
           right: '0'
         }, {duration: 'slow', queue:false}, function(){
 
@@ -37,12 +37,12 @@ $(document).ready(function() {
 console.log(index)
       if(index == 6) { 
         console.log($('.work'))
-        $('.work').fadeIn('slow').animate({ 
+        $('.summerfest').fadeIn('slow').animate({ 
           left: '0'
         }, {duration: 'slow', queue:false}, function() {
 
         });
-        $('.work-info').fadeIn('slow').animate({
+        $('.branding').fadeIn('slow').animate({
           right: '0'
         }, {duration: 'slow', queue:false}, function(){
 

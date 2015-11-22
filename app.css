@@ -1,4 +1,46 @@
 
+.test {
+  background-image: url(images/summerfest_cover.jpg);
+  position:relative;
+  /*background-color: limegreen;*/
+  height:100%;
+  width:100%;
+  /*float:left;*/
+  /*left:-20%;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+  
+}
+
+.test ul {
+  top:4%;
+  position:relative;
+  float:left;
+  padding-left:10px;
+  
+  color:red;
+}
+
+.test p {
+  top:4%;
+  position:relative;
+  float:right;
+  padding-right:10px;
+  
+  color:red;
+}
+
+.test h1 {
+  transform:rotate(-90deg);
+  top:80%;
+  position:relative;
+  float:right;
+  right:-85px;
+  /*padding-right:4px*/;
+  color:red;
+}
+
 .work {
   position:relative;
   background-color: black;
@@ -9,12 +51,6 @@
   display:none;
  }
 
- .down-to-go {
-  background-image: url("images/dtgfinal2.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center;
- }
 
 .work h1 {
   top:50%;
@@ -42,6 +78,12 @@
   color:gray;
 }
 
+.down-to-go {
+  background-image: url("images/dtgfinal2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+ }
 
 .summerfest {
   background-image: url("images/summerfest_cover.jpg");
