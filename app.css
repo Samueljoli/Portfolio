@@ -1,5 +1,6 @@
 
 .test {
+  font-family: 'Montserrat', sans-serif;
   background-image: url(images/summerfest_cover.jpg);
   position:relative;
   /*background-color: limegreen;*/
@@ -14,6 +15,7 @@
 }
 
 .test ul {
+  font-size:12px;
   top:4%;
   position:relative;
   float:left;
@@ -33,10 +35,10 @@
 
 .test h1 {
   transform:rotate(-90deg);
-  top:80%;
+  top:78%;
   position:relative;
-  float:right;
-  right:-85px;
+  float:left;
+  left:-190px;
   /*padding-right:4px*/;
   color:red;
 }
@@ -199,33 +201,44 @@ ul {
   margin:auto !important;
 }
 
-#summerfest {
-  display: inline-block;
-  width:25%;
-  height:45%;
+
+
+
+
+#workwrapper {
+  width:100%;
+  /*background-color:white;*/
+  display:inline-flex;  
+}
+
+.worknum {
+  flex:1;
+  /*background-color: deeppink;*/
+  font-family: 'Montserrat', sans-serif;
+  margin:20px;
+/*  width:20%;
+  height:45%;*/
 }
 
 
-#artopp {
-  /*background-color:red;*/
-  width:25%;
-  height:45%;
-  float:left;
+.worknum a {
+  text-decoration: none;
+  /*right:-60px;*/
 }
 
-#googlecli {
-
-  width:25%;
-  height:45%;
-  float:left;  
+.worknum p {
+  color:red;
+  font-size: 80px;
 }
 
-#dtg {
-  
-  width:25%;
-  height:45%;
-  float:left
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -244,6 +257,15 @@ ul {
     width: 100%;
   }
 }
+
+#section1.section {
+  
+  background-image: url("images/summerfest_cover.jpg");
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position:center;
+}
+
 
 
 

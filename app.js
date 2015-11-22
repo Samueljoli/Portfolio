@@ -17,7 +17,7 @@ ScrollApp.filter('html', function($sce) {return $sce.trustAsHtml; });
 // FULL PAGE JS
 $(document).ready(function() { 
   $('#fullpage').fullpage({
-    sectionsColor: ['#F8F8F8', 'black', '#7BAABE', 'black', 'gray', 'deeppink', 'lightblue'],
+    sectionsColor: ['#F8F8F8', '', '#7BAABE', 'black', 'gray', 'deeppink', 'lightblue'],
     anchors: ['Home', 'Work', 'Downtogo', 'ArtOpp', 'GoogleCLI', 'SummerFest', 'Contact'],
     
     // CALL BACKS
